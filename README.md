@@ -116,7 +116,7 @@ Industry research and Snowflake customer outcomes:
 - **Islamic finance sector contributed 25.6% to Malaysia's overall financial system in 2023** — [MIFC](https://www.mifc.com/)
 - **Manual Shariah compliance review takes 4-6 weeks per product — AI reduces to hours** — [Deloitte Islamic Finance](https://www2.deloitte.com/my/en/pages/financial-services/articles/islamic-finance.html)
 - **Non-compliance penalties from BNM can reach RM 25 million per incident** — [IFSA 2013](https://www.bnm.gov.my/islamic-financial-services-act-2013)
-
+- **Western Union** (Snowflake customer): processes 1B+ cross-border transactions on Snowflake with real-time compliance monitoring across 200+ countries -- [snowflake.com/customers/western-union](https://www.snowflake.com/en/customers/all-customers/case-study/western-union/)
 
 ## Key Demo Numbers
 
