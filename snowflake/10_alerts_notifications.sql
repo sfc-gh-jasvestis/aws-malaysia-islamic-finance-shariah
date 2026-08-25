@@ -8,7 +8,7 @@ USE SCHEMA APP;
 CREATE OR REPLACE NOTIFICATION INTEGRATION aws_malaysia_islamic_finance_shariah_EMAIL_INT
   TYPE = EMAIL
   ENABLED = TRUE
-  ALLOWED_RECIPIENTS = ('jonathan.asvestis@snowflake.com');
+  ALLOWED_RECIPIENTS = ('<YOUR_EMAIL>');
 
 -- Alert: NON_COMPLIANT_CONTRACT_ALERT
 CREATE OR REPLACE ALERT APP.NON_COMPLIANT_CONTRACT_ALERT
@@ -22,7 +22,7 @@ IF (EXISTS (
 THEN
   CALL SYSTEM$SEND_EMAIL(
     'aws_malaysia_islamic_finance_shariah_EMAIL_INT',
-    'jonathan.asvestis@snowflake.com',
+    '<YOUR_EMAIL>',
     '[ALERT] Shariah Compliance Monitoring: Contract flagged non-compliant with Shariah principles',
     'Contract flagged non-compliant with Shariah principles'
   );
@@ -41,7 +41,7 @@ IF (EXISTS (
 THEN
   CALL SYSTEM$SEND_EMAIL(
     'aws_malaysia_islamic_finance_shariah_EMAIL_INT',
-    'jonathan.asvestis@snowflake.com',
+    '<YOUR_EMAIL>',
     '[ALERT] Shariah Compliance Monitoring: Conflicting fatwa rulings require Shariah Committee review',
     'Conflicting fatwa rulings require Shariah Committee review'
   );
