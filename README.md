@@ -112,10 +112,10 @@ Run all scripts including AWS integration. Deploy QuickSight dashboard from `qui
 ## Business Impact
 
 Industry research and Snowflake customer outcomes:
-- **Malaysia's Islamic banking assets reached RM 1.2 trillion, representing 40.3% of total banking system** — [Bank Negara Malaysia](https://www.bnm.gov.my/islamic-finance-overview)
+- **Malaysia's Islamic banking assets reached RM 1.2 trillion, representing 40.3% of total banking system** — [Bank Negara Malaysia](https://www.bnm.gov.my/islamic-banking-takaful)
 - **Islamic finance sector contributed 25.6% to Malaysia's overall financial system in 2023** — [MIFC](https://www.mifc.com/)
 - **Manual Shariah compliance review takes 4-6 weeks per product — AI reduces to hours** — [Deloitte Islamic Finance](https://www.deloitte.com/my/en/Industries/financial-services.html)
-- **Non-compliance penalties from BNM can reach RM 25 million per incident** — [IFSA 2013](https://www.bnm.gov.my/laws-regulations)
+- **Non-compliance penalties from BNM can reach RM 25 million per incident** — [IFSA 2013](https://www.bnm.gov.my/publications)
 - **Western Union** (Snowflake customer): processes 1B+ cross-border transactions on Snowflake with real-time compliance monitoring across 200+ countries -- [snowflake.com/customers/western-union](https://www.snowflake.com/en/customers/all-customers/case-study/western-union/)
 
 ## Key Demo Numbers
