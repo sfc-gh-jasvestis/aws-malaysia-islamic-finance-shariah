@@ -54,6 +54,7 @@ export default function HomePage() {
         <div className="lg:col-span-1">
           <GeoMap
             country="malaysia"
+            labels={{ entity: 'Products', event: 'Compliance Checks', alert: 'Non-Compliances' }}
             regions={data?.regions}
             markers={[{"label": "Kuala Lumpur", "value": "Islamic finance hub", "color": "blue", "size": "lg"}, {"label": "Penang", "value": "Regional branch", "color": "green", "size": "md"}, {"label": "Johor Bahru", "value": "Southern ops", "color": "green", "size": "md"}, {"label": "Kota Kinabalu", "value": "E.Malaysia branch", "color": "green", "size": "sm"}]}
             routes={[]}
@@ -71,9 +72,14 @@ export default function HomePage() {
       <DataTable columns={[
           { key: 'id', header: '#' },
           { key: 'name', header: 'Product' },
+          { key: 'region', header: 'Region' },
           { key: 'status', header: 'SAC Status' },
-          { key: 'value', header: 'AUM (RM B)' },
-      ]} data={data?.entities || []} title="Shariah Compliance Dashboard" />
+          { key: 'm1', header: 'AUM (RM B)' },
+          { key: 'm2', header: 'New Rulings' },
+          { key: 'm3', header: 'Compliance Rate' },
+          { key: 'events', header: 'Compliance Checks' },
+          { key: 'alerts', header: 'Non-Compliances' },
+        ]} data={data?.entities || []} title="Shariah Compliance Dashboard" />
     </div>
   );
 
